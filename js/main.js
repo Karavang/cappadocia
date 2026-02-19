@@ -7,6 +7,14 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3000,
     fade: true,
+    responsive:[
+      {
+        breakpoint:601,
+        settings:{
+          arrows:false
+        }
+      }
+    ]
   });
  Fancybox.bind("[data-fancybox]", {  
   });
